@@ -1,0 +1,17 @@
+media:
+  input: images
+  output: /images
+
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: content/pages
+    fields:
+      - name: title
+        label: Title
+        type: string
+
+      - name: body
+        label: Body
+        type: rich-text
