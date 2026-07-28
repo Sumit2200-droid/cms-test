@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+
+    <h1>Website CMS</h1>
+
+    <p id="welcome">Loading...</p>
+
+    <hr><br>
+
+    <h2>Edit Homepage</h2>
+
+    <input
+        type="text"
+        id="title"
+        placeholder="Homepage Title">
+
+    <textarea
+        id="description"
+        rows="5"
+        placeholder="Homepage Description"></textarea>
+
+    <input
+        type="text"
+        id="button"
+        placeholder="Button Text">
+
+    <button id="saveBtn">
+        Save Changes
+    </button>
+
+    <br><br>
+
+    <button id="logoutBtn">
+        Logout
+    </button>
+
+    <p id="message"></p>
+
+</div>
+
+<script type="module" src="dashboard.js"></script>
+
+</body>
+</html>
